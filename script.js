@@ -30,10 +30,54 @@ Object.assign(ja,{
 Object.assign(ja,{
   "작동하는 연결":"機能するつながり",
   "을 만들다.":"をつくる。",
-  "전성현의 일본 현장실습 기록. 호텔과 콜센터를 잇는 실시간 채팅 시스템을 설계하고 운영 서버에 배포했습니다. 그 출발점에는 현장의 언어 장벽을 줄이기 위해 만든 음성 번역 도구가 있었습니다.":"チョン・ソンヒョンの日本現場実習記録。ホテルとコールセンターをつなぐリアルタイムチャットシステムを設計し、運用サーバーへデプロイしました。その出発点には、現場の言語の壁を減らすために開発した音声翻訳ツールがありました。"
+  "전성현의 일본 현장실습 기록. 호텔과 콜센터를 잇는 실시간 채팅 시스템을 설계하고 운영 서버에 배포했습니다. 그 출발점에는 현장의 언어 장벽을 줄이기 위해 만든 음성 번역 도구가 있었습니다.":"チョン・ソンヒョンの日本インターンシップ記録。ホテルとコールセンターをつなぐリアルタイムチャットシステムを設計し、運用サーバーへ導入しました。その出発点は、現場の言語の壁を減らすための音声翻訳ツールでした。",
+  "처음으로":"トップへ",
+  "두 달 동안 개발자처럼 구현하고, 현장 담당자처럼 설치하고, 사용자처럼 불편을 찾고, 통역자로서 서로의 말을 연결했습니다.":"2か月間、開発者として実装し、現場担当者として設置し、利用者として不便を探し、通訳として人と人をつなぎました。",
+  "결과물의 기준도 ‘실행되는가’에서 ‘실제로 계속 쓸 수 있는가’로 바뀌었습니다.":"成果物の基準は「動くか」から「実際に使い続けられるか」へと変わりました。",
+  "기획부터 운영 서버 배포까지 이어진 호텔·콜센터 채팅 시스템을 중심으로 구성했습니다.":"企画から運用サーバーへの導入まで取り組んだ、ホテル・コールセンター向けチャットシステムが中心です。",
+  "호텔 이용자는 가입 없이 QR로 접속하고, 상담원은 여러 대화를 실시간으로 관리합니다. 화면과 API를 연결한 데모에서 시작해 실제 서버 배포와 현장 피드백 반영까지 완성했습니다.":"ホテル利用者は登録不要でQRコードから接続し、オペレーターは複数の会話をリアルタイムで管理します。デモから始め、実サーバーへの導入と現場フィードバックの反映まで行いました。",
+  "게스트·상담원 화면과 대화방 설계":"ゲスト・オペレーター画面とチャットルーム設計",
+  "메시지 송수신·상담 종료·재접속":"メッセージ送受信・終了・再接続",
+  "SSH·Docker 기반 운영 서버 배포":"SSH・Dockerによる運用サーバー導入",
+  "객실 번호 QR·관리자 강조 표시 개선":"客室番号QR・管理者表示の改善",
+  "일본어 음성을 인식해 한국어로 전달하는 로컬 프로그램을 제작했습니다. 실제 업무에서 무료로 사용할 수 있도록 라이선스를 확인하고, 모델별 속도와 정확도를 비교했습니다.":"日本語音声を認識し、韓国語で表示するローカルプログラムを制作しました。業務で無料利用できるようライセンスを確認し、モデルごとの速度と精度を比較しました。",
+  "base / small 모델 성능 비교":"base / smallモデルの性能比較",
+  "오픈소스 라이선스 검토":"オープンソースライセンスの確認",
+  "직원 시연과 반복 피드백":"社員向けデモと反復改善",
+  "콜센터 PC 설치 및 사용 안내":"コールセンターPCへの設置・操作説明",
+  "도쿄에서 만든 결과물을 들고 모리오카 콜센터로 이동해 업무용 PC 설치, RAM 교체, 사용자 설명을 직접 수행했습니다. 이후 학교 방문단과 회사 사이에서 통역하며 프로젝트 성과를 전달했습니다.":"東京で制作した成果物を盛岡のコールセンターへ持ち込み、PCへの設置、RAM交換、操作説明を行いました。その後、学校訪問団と会社の間で通訳し、成果を伝えました。",
+  "모리오카 콜센터 2박 3일 출장":"盛岡コールセンターへの2泊3日出張",
+  "프로그램 설치·사용법 교육":"プログラムの設置・操作研修",
+  "업무용 PC 유지보수":"業務用PCのメンテナンス",
+  "회사–학교 간 현장 통역":"会社と学校の現場通訳",
+  "현장 담당자의 요구를 일본어로 확인하고 기능과 운영 조건을 문서화했습니다.":"現場の要望を日本語で確認し、機能と運用条件を文書化しました。",
+  "작은 프로토타입으로 방향을 확인한 뒤 피드백을 반복 반영했습니다.":"小さなプロトタイプで方向を確認し、改善を重ねました。",
+  "모리오카 콜센터에 직접 설치하고 실제 업무 환경을 확인했습니다.":"盛岡のコールセンターに導入し、実際の業務環境を確認しました。",
+  "서버에 배포하고 직원 피드백을 후속 개선으로 이어갔습니다.":"サーバーへ導入し、社員の声を次の改善につなげました。",
+  "업무 환경과 요구를 듣고 음성 번역 프로그램의 방향을 정했습니다.":"業務環境と要望を聞き、音声翻訳ツールの方向を定めました。",
+  "프로토타입을 시연하고 속도와 정확도에 관한 피드백을 받았습니다.":"プロトタイプを実演し、速度と精度への意見を受けました。",
+  "콜센터 PC에 번역 프로그램을 설치하고 조작 방법을 안내했습니다.":"コールセンターPCへ設置し、操作方法を説明しました。",
+  "호텔 고객과 상담원 화면을 나누고 대화 흐름을 설계했습니다.":"ホテル利用者とオペレーターの画面・会話フローを設計しました。",
+  "채팅방과 메시지 API를 연결해 송수신 과정을 테스트했습니다.":"チャットルームとメッセージAPIの送受信をテストしました。",
+  "대화방 생성, 메시지 송수신, 상담 종료 기능을 완성했습니다.":"ルーム作成、送受信、対応終了機能を完成させました。",
+  "외부 접속 데모를 직원에게 보여주고 실무 의견을 받았습니다.":"外部接続デモを社員に共有し、実務視点の意見を受けました。",
+  "Docker와 환경변수, 포트 구성을 학습해 운영 구조를 준비했습니다.":"Docker、環境変数、ポート構成を学び運用環境を準備しました。",
+  "SSH로 실제 서버에 접속하고 배포 환경을 점검했습니다.":"SSHで実サーバーに接続し、環境を確認しました。",
+  "프론트·백엔드·DB를 함께 실행하고 외부 접속을 검증했습니다.":"フロント・バックエンド・DBを起動し、外部接続を検証しました。",
+  "관리자 표시와 QR 객실 번호 등 직원 피드백을 반영했습니다.":"管理者表示やQR客室番号など、社員の意見を反映しました。",
+  "학교 방문단과 회사 사이에서 통역하며 개발 과정을 설명했습니다.":"学校訪問団と会社の間で通訳し、開発プロセスを説明しました。",
+  "도쿄의 출퇴근과 모리오카 출장, 현지 직원들과의 대화 속에서 언어는 신뢰를 만드는 업무 도구가 되었습니다.":"東京での通勤、盛岡への出張、現地社員との会話を通して、言語は信頼をつくる仕事の道具になりました。",
+  "왕코소바 100그릇":"わんこそば100杯",
+  "AI EXPO의 하루":"AI EXPOの一日",
+  "도쿄의 여름밤":"東京の夏の夜",
+  "일본 100명성 스탬프":"日本100名城スタンプ",
+  "오래된 취미와의 재회":"長く続けた趣味との再会",
+  "두 달 생활의 첫 방":"2か月生活の最初の部屋",
+  "맨 위로":"トップへ"
 });
 const nodes=[];document.querySelectorAll("body *").forEach(el=>el.childNodes.forEach(n=>{if(n.nodeType===3&&n.nodeValue.trim()){n._ko=n.nodeValue;nodes.push(n)}}));
-document.querySelectorAll(".lang-switch button").forEach(btn=>btn.addEventListener("click",()=>{const lang=btn.textContent.trim()==="KO"?"ko":"ja";document.documentElement.lang=lang;nodes.forEach(n=>{const raw=n._ko,trim=raw.trim();n.nodeValue=lang==="ja"&&ja[trim]?raw.replace(trim,ja[trim]):raw});document.querySelectorAll(".lang-switch button").forEach(x=>x.classList.toggle("active",x===btn));}));
+const translatedAttrs=[];document.querySelectorAll("[aria-label],[placeholder],[alt],[title]").forEach(el=>["aria-label","placeholder","alt","title"].forEach(attr=>{const value=el.getAttribute(attr);if(value)translatedAttrs.push({el,attr,ko:value})}));
+document.querySelectorAll(".lang-switch button").forEach(btn=>btn.addEventListener("click",()=>{const lang=btn.textContent.trim()==="KO"?"ko":"ja";document.documentElement.lang=lang;nodes.forEach(n=>{const raw=n._ko,trim=raw.trim();n.nodeValue=lang==="ja"&&ja[trim]?raw.replace(trim,ja[trim]):raw});translatedAttrs.forEach(({el,attr,ko})=>el.setAttribute(attr,lang==="ja"&&ja[ko]?ja[ko]:ko));document.querySelectorAll(".lang-switch button").forEach(x=>x.classList.toggle("active",x===btn));}));
 
 const lifeAddButton=document.querySelector(".life-add"),lifeUploader=document.querySelector(".life-uploader"),lifeForm=lifeUploader?.querySelector("form"),lifeGallery=document.querySelector(".life-gallery"),lifeStoreKey="jsh-life-photos";
 let photoShortcutStep=0,photoShortcutTimer;window.addEventListener("keydown",(event)=>{if(!event.ctrlKey||!event.shiftKey){photoShortcutStep=0;return}if(event.code==="Digit2"||event.code==="Numpad2"){event.preventDefault();photoShortcutStep=1;clearTimeout(photoShortcutTimer);photoShortcutTimer=setTimeout(()=>photoShortcutStep=0,2000);return}if(photoShortcutStep===1&&(event.code==="Digit7"||event.code==="Numpad7")){event.preventDefault();photoShortcutStep=0;clearTimeout(photoShortcutTimer);document.querySelector(".life")?.classList.add("photo-tools-unlocked");lifeUploader?.classList.add("is-open");lifeAddButton?.setAttribute("aria-expanded","true")}});
